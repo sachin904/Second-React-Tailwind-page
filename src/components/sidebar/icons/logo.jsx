@@ -1,4 +1,4 @@
-import imgsrc from "D:/100xdevs/week-13-tailwind/week-13.2/src/components/sidebar/images/image.png"
+import imgsrc from "./../../../profileImage/image.png"
 
 export function Headers1(){
     return<div className="w-28 ">
