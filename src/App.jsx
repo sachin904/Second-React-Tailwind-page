@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-constant-binary-expression */
 /* eslint-disable no-constant-condition */
 /* eslint-disable react/no-unknown-property */
@@ -6,7 +7,7 @@
 import { useState } from 'react'
 import './App.css'
 import { SidebarIcon } from './components/sidebar/icons/sidebarIcon'
-import { SidebarClass1 } from './components/sidebar/Sidebar1'
+
 import { SettingIcon } from './components/sidebar/icons/settingicon';
 import { HomeIcon } from './components/sidebar/icons/Homeicon';
 import { WebinarIcon } from './components/sidebar/icons/webinaricon';
@@ -18,7 +19,7 @@ import { JoinWebinarIcon } from './components/sidebar/icons/joinWebinaricon';
 import { OpenRecordingIcon } from './components/sidebar/icons/openRecordingicon';
 import { ProfileContent } from './components/maincontent/prifileComponent';
 import { VideoStatusIcon } from './components/sidebar/icons/videoStatusIcon';
-import { Input } from 'postcss';
+
 import DatePicker from './components/maincontent/datepicker';
 
 
@@ -118,7 +119,7 @@ function MainContent() {
 
   // eslint-disable-next-line no-unused-vars
   const [users, setUser] = useState([{
-    image: "./src/profileImage/photo.jpg",
+    image: "./src/profileImage/photo.png",
     name1: "Priyanshi Kaur",
     email: "priyanshi@gmail.com",
     mobile: 9832678277,
@@ -135,7 +136,7 @@ function MainContent() {
 
   ));
   return <div className='w-full ' >
-    <div className='bg-black h-32 hidden md:block'></div>
+    <div className=' h-32 hidden md:block bg-cover bg-[url(/src/profileImage/bakground.jpg)]'> </div>
     <div className='grid grid-cols-12  gap-4 p-8  '>
       <div className='bg-white  shadow-gray-400 font-semibold shadow-lg  md:col-span-2 col-span-12 h-64 rounded-xl -translate-y-20  hidden md:block transform-all duration-200 p-4 text-center text-[12px]
       '>
