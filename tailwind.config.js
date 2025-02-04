@@ -5,7 +5,16 @@ export default {
   ],
   darkMode:'selector',
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        blue:{
+          300:"#3fdfcf"
+        },
+      },
+     screens:{
+      lg:"1132px"
+     }, 
+    },
   },
   plugins: [],
 }
