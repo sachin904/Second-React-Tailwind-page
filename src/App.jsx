@@ -17,7 +17,7 @@ import { Headers1 } from './components/sidebar/icons/logo';
 import { CalendarIcon } from './components/sidebar/icons/calendaricon';
 import { JoinWebinarIcon } from './components/sidebar/icons/joinWebinaricon';
 import { OpenRecordingIcon } from './components/sidebar/icons/openRecordingicon';
-import { ProfileContent } from './components/maincontent/prifileComponent';
+import { ProfileContent } from './components/maincontent/profileComponent';
 import { VideoStatusIcon } from './components/sidebar/icons/videoStatusIcon';
 
 import DatePicker from './components/maincontent/datepicker';
@@ -119,7 +119,7 @@ function MainContent() {
 
   // eslint-disable-next-line no-unused-vars
   const [users, setUser] = useState([{
-    image: "/src/profileImage/photo.png",
+    image: "/photo.png",
     name1: "Priyanshi Kaur",
     email: "priyanshi@gmail.com",
     mobile: 9832678277,
