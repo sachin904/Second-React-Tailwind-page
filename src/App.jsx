@@ -119,7 +119,7 @@ function MainContent() {
 
   // eslint-disable-next-line no-unused-vars
   const [users, setUser] = useState([{
-    image: "./src/profileImage/photo.png",
+    image: "src/profileImage/photo.png",
     name1: "Priyanshi Kaur",
     email: "priyanshi@gmail.com",
     mobile: 9832678277,
